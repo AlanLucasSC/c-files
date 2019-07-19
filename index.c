@@ -1,14 +1,8 @@
 #include <stdio.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <unistd.h>
-
-struct stat st = {0};
+#include <windows.h>
 
 int main(){
-	if(stat("./batata", &st) == -1){
-		mkdir("./batata", 0700);
-	}
+	CreateDirectory("./batata", NULL);
 	printf("Batata");
 	return 0;
 }

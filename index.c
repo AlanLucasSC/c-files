@@ -2,7 +2,7 @@
 #include <windows.h>
 
 int main(){
-	CreateDirectory("./batata", NULL);
+	CreateDirectory("C:/Users/alcastro/Documents/ProcessTask/c-files/batata", NULL);
 	printf("Batata");
 	return 0;
 }

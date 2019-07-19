@@ -3,9 +3,8 @@
 #include <stdlib.h>
 
 int main(){
+	system("cd C:/Users/alcastro/Documents/ProcessTask/c-files && git clone https://github.com/AlanLucasSC/csv.git");
 	CreateDirectory("C:/Users/alcastro/Documents/ProcessTask/c-files/batata", NULL);
-	system("cd C:/Users/alcastro/Documents/ProcessTask/c-files/batata");
-	system("git clone https://github.com/AlanLucasSC/csv.git");
 	printf("Batata");
 	return 0;
 }
